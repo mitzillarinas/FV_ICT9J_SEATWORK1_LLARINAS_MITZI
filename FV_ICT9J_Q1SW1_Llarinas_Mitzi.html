@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 3 Spotify Artists</title>
+    <style>
+        body {
+            background-image: url('https://i.pinimg.com/736x/53/03/7f/53037f24d6f59dd4e5f5167a4f954f60.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px;
+            /* Flex layout on body centers the entire pink card on your screen */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            background: #ffd5e4e8;
+            gap: 40px;
+            padding: 30px; /* Increased padding slightly for a cleaner border shape */
+            border-radius: 10px;
+            display: flex; /* Changed from inline-flex to work seamlessly with centering */
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+        }
+
+        /* Stacks the image on top of the text and aligns them directly to the center line */
+        .song {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .song img {
+            border-radius: 20px;
+            height: 250px;
+            width: 250px;
+            object-fit: cover; /* Keeps your images square without stretching them */
+            margin-bottom: 15px; /* Creates clean spacing between the image and the text */
+        }
+
+        .song a {
+            display: inline-block;
+            text-decoration: none;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-weight: bold;
+        
+
+        
+        footer {
+            margin-top: 40px;    /* Adjusts the space under the pink card */
+            margin-bottom: 20px; /* Space at the very bottom of the page */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 14px;
+            color: #555;         
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Top Three Spotify Artists 🎶</h1>
+    </header>
+         
+    <ul>
+        <li class="song">
+            <img src="https://i.pinimg.com/736x/59/73/c3/5973c39c19d5c3a2492474260af65cdd.jpg" alt="CORTIS">
+            <a href="https://open.spotify.com/artist/1ebt9HnXdyYA6KgLXr1n4P?si=-u2ulxaZRmi4-O0tOOWINA">CORTIS</a>
+        </li>
+        <li class="song">
+            <img src="https://i.pinimg.com/736x/de/b2/e7/deb2e7d7da3bc9524cc0f2830d7ad611.jpg" alt="OLIVIA RODRIGO">
+            <a href="https://open.spotify.com/artist/1McMsnEElThX1knmY4oliG?si=yXWnts5sRp2r0V0BptbOfg" target="_blank">OLIVIA RODRIGO</a>
+        </li>
+        <li class="song">
+            <img src="https://i.pinimg.com/1200x/03/ac/d9/03acd9d57a5290d35b3d1a901a7add1c.jpg" alt="THE 1975">
+            <a href="https://open.spotify.com/artist/3mIj9lX2MWuHmhNCA7LSCW?si=LsJNqEX4RYO0eSHfIXnFDQ" target="_blank">THE 1975</a>
+        </li>
+    </ul>
+
+     <footer>
+        © 2026 My Top Three Favorite Artists | Created by Mitzi Llarinas 9-Jade
+    </footer>
+</body>
+</html>
